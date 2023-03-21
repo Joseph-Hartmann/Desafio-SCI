@@ -29,6 +29,6 @@ aluno[2][4] = parseFloat(readline.question("insira nota do aluno: "));
 console.log("=======================");
 console.table(aluno);
 
-aluno[0] = console.log(`Nota final ${aluno[0]}`);
+console.log(`Nota final ${aluno[0]}`);
 console.log(`Nota final ${aluno[1]}`);
 console.log(`Nota final ${aluno[2]}`);
